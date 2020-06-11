@@ -1,0 +1,13 @@
+
+Integrando o MySQL ao NodeJS
+https://medium.com/@almeida.adriano/integrando-o-mysql-ao-nodejs-84dd5a9c8396
+
+Neste artigo vamos construir uma simples aplicação em NodeJS que irá se conectar ao um banco de dados MySQL e realizar algumas manipulações usando a linguagem DML (Data Manipulation Language) do SQL. Ou seja, algumas operações de SELECT, INSERT, UPDATE e DELETE.
+
+https://www.w3schools.com/nodejs/nodejs_mysql.asp
+Node.js MySQL
+
+
+
+Como usar NodeJS + MySQL
+https://www.luiztools.com.br/post/como-usar-nodejs-mysql/#1

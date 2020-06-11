@@ -1,0 +1,34 @@
+
+
+
+//Redirecionamento de pagina
+app.get('/',async function(req, res){
+
+    let posts = await Post.findAll();
+    console.log(posts)
+
+    res.render('home',{posts: posts});    
+});
+
+
+//Redirecionamento de pagina
+app.get('/',function(req, res){
+    Post.all().then(function(posts){
+        console.log(posts);
+        res.render('home',{posts: posts}); 
+    });    
+});
+
+
+//Rotas 
+//Redirecionamento de pagina
+app.get('/',function(req, res){
+    Post.findAll().then(function(posts){
+        console.log(posts);
+        res.render('home',{posts: posts}); 
+    });    
+});
+
+
+
+
